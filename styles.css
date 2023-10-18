@@ -1,0 +1,31 @@
+/*backgrounds color for all sections, add content*/
+#home {
+    background-color: #FAF8ED;
+}
+#about {
+    background-color: #004225;
+    padding-top: 5px;
+}
+#about-me-content {
+    background-color: #FAF8ED;
+    width:90%;
+    border-radius: 80px 80px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#companies {
+    background-color: #FAF8ED;;
+}
+#work {
+    background-color: #FFB000;
+}
+#contact {
+    background-color: #004225;
+}
+footer{
+    background-color: #FAF8ED;
+}
+/* images companies & projects section */
+img {
+    width: 64px;
+}
