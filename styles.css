@@ -2,7 +2,21 @@
 #home {
     background-color: #FAF8ED;
 }
-
+#home > p {
+    position: relative;
+    top: 18px;
+    left: 220px;
+}
+#home > h1 {
+    position: relative;
+    left: 210px;
+}
+#navbar {
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    left: 350px;
+}
 /* Header section */
 
 /* Main section */
@@ -16,12 +30,27 @@
 #about-me-content {
     background-color: #FAF8ED;
     width:90%;
-    border-radius: 80px 80px 0px 0px;
+    height: 250px;
+    border-radius: 40px 40px 0px 0px;
     margin-left: auto;
     margin-right: auto;
 }
-.about-me-content p{
-    text-align: center;
+#face-photo{
+    width: 220px;
+    position: relative;
+    left: 477px;;
+    bottom: 237px;
+}
+#about-me-content p{
+    position: relative;
+    text-align: auto;
+    top:20px;
+    left:40px;
+}
+#about-me-content h2, h3 {
+    position: relative;
+    top:30px;
+    left:40px;
 }
 /* ABOUT SECTION */
 
@@ -29,14 +58,17 @@
 #companies {
     background-color: #FAF8ED;;
 }
-img {
-    width: 64px;
+#companies img {
+    width: 68px;
 }
 /* COMPANIES SECTION */
 
 /* WORK SECTION */
 #work {
     background-color: #FFB000;
+}
+#work img {
+    width:64px;
 }
 /* WORK SECTION */
 
