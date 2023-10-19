@@ -1,7 +1,14 @@
-/*backgrounds color for all sections, add content*/
+/* Header section */
 #home {
     background-color: #FAF8ED;
 }
+
+/* Header section */
+
+/* Main section */
+/*backgrounds color for all sections, add content*/
+
+/*  ABOUT SECTION */
 #about {
     background-color: #004225;
     padding-top: 5px;
@@ -13,19 +20,36 @@
     margin-left: auto;
     margin-right: auto;
 }
+.about-me-content p{
+    text-align: center;
+}
+/* ABOUT SECTION */
+
+/* COMPANIES SECTION */
 #companies {
     background-color: #FAF8ED;;
 }
-#work {
-    background-color: #FFB000;
-}
-#contact {
-    background-color: #004225;
-}
-footer{
-    background-color: #FAF8ED;
-}
-/* images companies & projects section */
 img {
     width: 64px;
 }
+/* COMPANIES SECTION */
+
+/* WORK SECTION */
+#work {
+    background-color: #FFB000;
+}
+/* WORK SECTION */
+
+/* CONTACT SECTION */
+#contact {
+    background-color: #004225;
+}
+/* CONTACT SECTION */
+/* Main section */
+
+/* Footer section */
+footer{
+    background-color: #FAF8ED;
+}
+/* Footer section */
+
