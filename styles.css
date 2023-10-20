@@ -1,3 +1,7 @@
+* {
+    font-family: 'Nunito', 'Lato', 'Montserrat', sans-serif;
+}
+
 /* Header section */
 #home {
     background-color: #FAF8ED;
@@ -11,11 +15,17 @@
     position: relative;
     left: 210px;
 }
+#home > h2 {
+    position: relative;
+    left: 210px;
+    bottom:20px;
+    font-size: small;
+}
 #navbar {
     display: inline-block;
     position: relative;
     bottom: 15px;
-    left: 350px;
+    left: 375px;
 }
 /* Header section */
 
@@ -35,28 +45,34 @@
     margin-left: auto;
     margin-right: auto;
 }
+#about-me-content h2, h3 {
+    position: relative;
+    top:30px;
+    left:50px;
+}
+#about-me-content h3 {
+    position: relative;
+    top:10px;
+    left:50px;
+}
 #face-photo{
     width: 220px;
     position: relative;
     left: 477px;;
-    bottom: 237px;
+    bottom: 140px;
+    float:left;
 }
 #about-me-content p{
     position: relative;
-    text-align: auto;
-    top:20px;
-    left:40px;
+    right:160px;
+    width:92%;
 }
-#about-me-content h2, h3 {
-    position: relative;
-    top:30px;
-    left:40px;
-}
+
 /* ABOUT SECTION */
 
 /* COMPANIES SECTION */
 #companies {
-    background-color: #FAF8ED;;
+    background-color: #FAF8ED;
 }
 #companies img {
     width: 68px;
@@ -82,6 +98,7 @@
 /* Footer section */
 footer{
     background-color: #FAF8ED;
+
 }
 /* Footer section */
 
