@@ -21,10 +21,15 @@
     bottom:20px;
     font-size: small;
 }
+.container > #navbar {
+    display: inline-flex;
+    border: 5px solid black;
+    gap:15px;
+} 
 #navbar {
     display: inline-block;
     position: relative;
-    bottom: 15px;
+    bottom: 25px;
     left: 375px;
 }
 /* Header section */
