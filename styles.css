@@ -1,11 +1,13 @@
 * {
     font-family: 'Nunito', 'Lato', 'Montserrat', sans-serif;
+    margin:auto;
 }
 
 /******************************* Header section ******************************/
 #home {
     background-color: #FAF8ED;
     height: 25vh;
+    padding-top: 10px;
 }
 #home > p {
     position: relative;
@@ -19,7 +21,6 @@
 #home > h2 {
     position: relative;
     left: 210px;
-    bottom:20px;
     font-size: small;
 }
 .flex-container-nav > #navbar {
@@ -41,8 +42,8 @@
 /*******************************  ABOUT SECTION *****************************/
 #about {
     background-color: #004225;
-    padding-top: 5px;
-    
+    padding-top: 15px;
+
 }
 #about-me-content {
     background-color: #FAF8ED;
@@ -59,20 +60,21 @@
 }
 #about-me-content h3 {
     position: relative;
-    top:10px;
+    top:25px;
     left:50px;
 }
 #face-photo{
     width: 220px;
     position: relative;
-    left: 477px;;
-    bottom: 140px;
+    left: 491px;;
+    bottom: 102px;
     float:left;
 }
 #about-me-content p{
     position: relative;
+    top:40px;
     right:160px;
-    width:92%;
+    width:90%;
 }
 
 /******************************* ABOUT SECTION ******************************/
@@ -102,24 +104,28 @@
     height: 30vh;
 }
 
-#work img {
+.grid-container-tech{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:10px;
+    position: relative;
+    bottom: 15px;
+    left:25%;
+}
+
+.grid-container-tech > img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20%;
+    padding: 10px 10px;
     width:80px;
 }
 
 #keyboard-img {
     height: 80px;
-}
-
-.grid-container-tech{
-    display: grid;
-    grid-template-columns: 150px 150px 150px;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap:5px;
-}
-.grid-container-tech > img{
-    background-color: white;
-    border-radius: 20%;
-    padding: 10px;
 }
 /******************************* WORK SECTION *******************************/
 
