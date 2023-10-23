@@ -67,16 +67,20 @@
     width: 220px;
     position: relative;
     left: 491px;;
-    bottom: 102px;
+    bottom: 124px;
     float:left;
 }
 #about-me-content p{
     position: relative;
-    top:40px;
+    top:25px;
     right:160px;
     width:90%;
 }
-
+#about-me-button {
+    position: relative;
+    top: 20px;
+    right: 160px;
+}
 /******************************* ABOUT SECTION ******************************/
 
 /***************************** COMPANIES SECTION **************************/
