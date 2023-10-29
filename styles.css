@@ -67,7 +67,7 @@
     width: 220px;
     position: relative;
     left: 491px;;
-    bottom: 124px;
+    bottom: 125px;
     float:left;
 }
 #about-me-content p{
@@ -137,6 +137,7 @@
 #contact {
     background-color: #004225;
     height: 30vh;
+    color: white;
 }
 /******************************* CONTACT SECTION ****************************/
 /****************************** Main section *******************************/
@@ -144,7 +145,11 @@
 /******************************* Footer section *****************************/
 footer{
     background-color: #FAF8ED;
+    height: 50px;
+}
 
+footer > p{
+    text-align: center;
 }
 /******************************* Footer section *****************************/
 

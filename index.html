@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;700&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
@@ -66,8 +67,37 @@
         </section>
 
         <section id="contact" class="contact">
-            <h3>Contact US</h3>
-            <h3>Sitemap</h3>
+            <div class="row">
+                <div class="col-12 col-sm-4">
+                    <h3>Contact US</h3> <br>
+                    <p>Send Me a message</p>
+                    <form action="" method="post">
+                        <input type="text" name="email"><br>
+                        <input type="text" name="name"><br>
+                        <textarea name="message" cols="30" rows="5"></textarea> <br>
+                        <input type="submit" value="Send Message">
+                    </form>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <h3>Sitemap</h3> <br>
+                    <p>All my pages</p>
+                    <h4>-Home</h4>
+                    <h4>-About</h4>
+                    <h4>-Work</h4>
+                    <h4>-Projects</h4>
+                    <h4>-Contact</h4>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <h3>Marek Bialik</h3><br>
+                    <i class="fa-solid fa-phone">
+                        <p>(+48) 570 209 899</p>
+                    </i><br>
+                    <i class="fa-regular fa-envelope">
+                        <p>bialik.marek93@gmail.com</p>
+                    </i>
+                    
+                </div> 
+            </div>
         </section>
     </main>
     <footer>
