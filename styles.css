@@ -23,17 +23,7 @@
     left: 210px;
     font-size: small;
 }
-.flex-container-nav > #navbar {
-    display: inline-flex;
-    border: 5px solid black;
-    gap:15px;
-} 
-#navbar {
-    display: inline-block;
-    position: relative;
-    bottom: 25px;
-    left: 375px;
-}
+
 /******************************* Header section ******************************/
 
 /******************************* Main section *******************************/
@@ -138,6 +128,7 @@
     background-color: #004225;
     height: 30vh;
     color: white;
+    padding-left: 20%;
 }
 /******************************* CONTACT SECTION ****************************/
 /****************************** Main section *******************************/

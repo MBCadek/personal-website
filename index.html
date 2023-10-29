@@ -15,17 +15,19 @@
     <!-- fun begins -->
     <header>
         <section id="home" class="home">
-            <p>Marek Bialik</p>
-            <div class="flex-container-nav">
-                <nav id="navbar" class="nav">
-                    <span>HOME</span>
-                    <span>About</span>
-                    <span>Work</span>
-                    <span>Contact</span>
-                </nav>
-            </div> 
-            <h1>Product Management</h1>
-            <h2>Hi, lets talk about “what & why” we need to deliver this product.</p>
+            <header class="d-flex justify-content-center py-3">
+                <ul class="nav nav-pills">
+                      <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+            </header>
+           
+                <h1>Product Management</h1>
+                <h2>Hi, lets talk about “what & why” we need to deliver this product.</p>
+            
         </section>
     </header>
     <main>
@@ -35,7 +37,7 @@
                 <h3>a little bit about myself...</h3>
                 <img id="face-photo" class="face-photo" src="./SVG/profile photo-removebg.png"/>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                <button id="about-me-button">Read More</button>
+                <button id="about-me-button" type="button" class="btn btn-warning">Read More</button>
             </div>
             
         </section>
@@ -55,7 +57,7 @@
         <section id="work" class="work">
             <h2>Projects</h2>
             <h3>technologies I worked with</h3>
-            <button id="projects-button">Read More</button>
+            <button id="projects-button" type="button" class="btn btn-light">Read More</button>
             <div class="grid-container-tech">
                 <img id="software-img" src="./SVG/technologies/software svg.png"/>
                 <img id="iot-img" src="./SVG/technologies/iot icon.png"/>
@@ -72,10 +74,10 @@
                     <h3>Contact US</h3> <br>
                     <p>Send Me a message</p>
                     <form action="" method="post">
-                        <input type="text" name="email"><br>
-                        <input type="text" name="name"><br>
+                        <input type="text" name="email" value="Full Name"><br>
+                        <input type="text" name="name" value="Your email"><br>
                         <textarea name="message" cols="30" rows="5"></textarea> <br>
-                        <input type="submit" value="Send Message">
+                        <input type="submit" value="Send Message" type="button" class="btn btn-warning">
                     </form>
                 </div>
                 <div class="col-12 col-sm-4">
@@ -89,11 +91,9 @@
                 </div>
                 <div class="col-12 col-sm-4">
                     <h3>Marek Bialik</h3><br>
-                    <i class="fa-solid fa-phone">
-                        <p>(+48) 570 209 899</p>
+                    <i class="fa-solid fa-phone"><span>(+48) 570 209 899</span>
                     </i><br>
-                    <i class="fa-regular fa-envelope">
-                        <p>bialik.marek93@gmail.com</p>
+                    <i class="fa-regular fa-envelope"><span>bialik.marek93@gmail.com</span>
                     </i>
                     
                 </div> 
